@@ -30,7 +30,7 @@ class Stack:
             return self.top[-1]
 
 def checkBrackets(statement):
-    stack =Stack()
+    stack = Stack()
     for ch in statement:
         if ch in ('('):
             stack.push(ch)
